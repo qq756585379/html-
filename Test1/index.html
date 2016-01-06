@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="CSS/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="page-header">响应式布局的实用类<small> 使用Bootstrap网格系统布局网页</small></h1>
+
+    <div id="carousel1" class="carousel slide">
+
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="http://placehold.it/940x360/C24704/FFFFFF&text=Wordpress" alt="">
+                <div class="carousel-caption">
+                    <h4>标题一</h4>
+                    <p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://placehold.it/940x360/FFEB79&text=Joomla" alt="">
+                <div class="carousel-caption">
+                    <h4>标题二</h4>
+                    <p> Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://placehold.it/940x360/A0E0A9/FFFFFF&text=Drupal" alt="">
+                <div class="carousel-caption">
+                    <h4>标题三</h4>
+                    <p>Egestas eget quam. Donec id elit non mi porta gravida at eget metus. </p>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#carousel1" data-slide="prev" class="left carousel-control">‹</a>
+        <a href="#carousel1" data-slide="next" class="right carousel-control">›</a>
+    </div>
+
+    <div class="row">
+        <div class="page-header clearfix">
+            <div class="span4"><img src="images/phone.png" alt="智能手机"></div>
+            <div class="span4 hidden-phone"><img src="images/tablet.png" alt="平板电脑"></div>
+            <div class="span4 visible-desktop"><img src="images/desktop.png" alt="桌面电脑"></div>
+        </div>
+    </div>
+
+    <!--<img src="http://placehold.it/940x360/C24704/FFFFFF&text=Wordpress" alt="">-->
+    <!--<h4>标题一</h4>-->
+    <!--<p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+
+    <!--<img src="http://placehold.it/940x360/FFEB79&text=Joomla" alt="">-->
+    <!--<h4>标题二</h4>-->
+    <!--<p> Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+
+    <!--<img src="http://placehold.it/940x360/A0E0A9/FFFFFF&text=Drupal" alt="">-->
+    <!--<h4>标题三</h4>-->
+    <!--<p>Egestas eget quam. Donec id elit non mi porta gravida at eget metus. </p>-->
+
+    <h1 class="page-header">显示折叠内容</h1>
+
+    <div class="accordion" id="accordion1">
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" href="#collapse1" data-toggle="collapse" data-parent="#accordion1">显示折叠内容一</a>
+            </div>
+            <div class="collapse in" id="collapse1">
+                <div class="accordion-inner">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" href="#collapse2" data-toggle="collapse" data-parent="#accordion1">显示折叠内容二</a>
+            </div>
+            <div class="collapse" id="collapse2">
+                <div class="accordion-inner">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" href="#collapse3" data-toggle="collapse" data-parent="#accordion1">显示折叠内容三</a>
+            </div>
+            <div class="collapse" id="collapse3">
+                <div class="accordion-inner">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="page-header">工具提示</h1>
+
+    <p><a title="这是一个提示信息" rel="tooltip" href="#">Tooltip</a></p>
+    <p><a title="这是标题" data-content="这是提示的主要内容" rel="popover" href="#">Popover</a></p>
+
+    <!--////////////////////////////////////////////////////-->
+    <h1 class="page-header">对话框</h1>
+    <a href="#login" data-toggle="modal" class="btn btn-primary">点击登录</a>
+
+    <div class="modal hide fade" id="login">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">×</a>
+            <h4>用户登录</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal">
+                <div class="control-group">
+                    <label class="control-label">用户名</label>
+                    <div class="controls">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">密码</label>
+                    <div class="controls">
+                        <input type="text">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">登录</button>
+        </div>
+    </div>
+
+    <!--//////////////////////////////////////-->
+    <h1 class="page-header">对话框</h1>
+
+    <h4>用户登录2</h4>
+    <form class="form-horizontal">
+        <div class="control-group">
+            <label class="control-label">用户名</label>
+            <div class="controls">
+                <input type="text">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">密码</label>
+            <div class="controls">
+                <input type="text">
+            </div>
+        </div>
+    </form>
+    <button type="button" class="btn btn-primary">登录</button>
+    <!--///////////////////////////////////////-->
+    <h1 class="page-header">缩略图</h1>
+    <ul class="thumbnails">
+        <li class="span3"><a class="thumbnail" href="#"><img src="http://placehold.it/260x180" alt=""></a></li>
+        <li class="span3"><a class="thumbnail" href="#"><img src="http://placehold.it/260x180" alt=""></a></li>
+        <li class="span3"><a class="thumbnail" href="#"><img src="http://placehold.it/260x180" alt=""></a></li>
+        <li class="span3"><a class="thumbnail" href="#"><img src="http://placehold.it/260x180" alt=""></a></li>
+        <li class="span6"><a class="thumbnail" href="#"><img src="http://placehold.it/520x380" alt=""></a></li>
+        <li class="span6"><a class="thumbnail" href="#"><img src="http://placehold.it/520x180" alt=""></a></li>
+        <li class="span3"><a class="thumbnail" href="#"><img src="http://placehold.it/260x180" alt=""></a></li>
+        <li class="span3"><a class="thumbnail" href="#"><img src="http://placehold.it/260x180" alt=""></a></li>
+    </ul>
+
+    <!--///////////////////////////////////////////////////-->
+    <h1 class="page-header">提示信息</h1>
+    <div class="alert alert-block">
+        <a href="#" class="close" data-dismiss="alert">×</a>
+        <h4>提示</h4>
+        Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Nulla nibh est, sagittis sit amet consectetur a, rhoncus dignissim ligula.
+    </div>
+
+</div>
+<--! js顺序 -->
+<script src="JS/html5.js"></script>
+<script type="text/javascript" src="JS/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="JS/bootstrap.min.js"></script>
+<script type="text/javascript" src="JS/hammer.min.js"></script>
+<script type="text/javascript" src="JS/jquery.hammer.js"></script>
+<script>
+    $("a[rel=tooltip]").tooltip()
+    $("a[rel=popover]").popover()
+</script>
+</body>
+</html>

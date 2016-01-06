@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+body{
+    background: url(../images/bg.jpg) no-repeat top center;
+    height: 1000px;
+}
+#logo{
+    width: 970px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo h1 a{
+    display: block;
+    /*把字符隐去*/
+    text-indent: -9999px;
+}
+#navbar{
+    width: 982px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+#navbar .hd{
+    width: 18px;
+    height: 44px;
+    background: url(../images/icons.png) no-repeat -12px -9px;
+}
+#navbar .ft{
+    width: 18px;
+    height: 44px;
+    background: url(../images/icons.png) no-repeat -30px -9px;
+}
+#navbar .bd{
+    width: 944px;
+    height: 44px;
+    background: url(../images/icons.png) repeat-x -5px -73px;
+}
+#navbar .bd ul{
+    list-style: none;
+}
+#navbar .bd ul li{
+    float: left;
+    width: 111px;
+    text-align: center;
+    font: 14px/44px "宋体";
+    background: url(../images/icons.png) no-repeat -39px -135px;
+}
+#navbar .bd ul li.no1{
+    width: 83px;
+    background: url("");
+}
+#navbar .bd ul li.no9{
+    width: 84px;
+}
+#navbar .bd ul li a{
+    position: relative;
+    left: 2px;
+}
+#navbar .bd ul li.no1{
+    text-align: left;
+}
+#navbar .bd ul li.no9 a{
+    text-align: right;
+    left: 7px;
+}
+#navbar .bd ul li a:link,#navbar .bd ul li a:visited{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navbar .bd ul li a:hover,#navbar .bd ul li a:active{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cl{
+    height: 17px;
+    clear: both;
+}
+#banner{
+    width: 982px;
+    margin: 0 auto;
+}
+.cl2{
+    height: 5px;
+    clear: both;
+}
+
+
+#product{
+    width: 969px;
+    margin: 0 auto;
+    padding-left: 11px;
+}
+#product ul{
+    list-style: none;
+}
+#product ul li{
+    float: left;
+    width: 236px;
+    height: 86px;
+    margin-right: 6px;
+}
+#product ul li a{
+    /*text-indent: -9999px;*/
+    display: block;
+    height: 86px;
+    background: url(../images/pros.png) no-repeat;
+}
+#product ul li.no1 a:link,#product ul li.no1 a:visited{
+    background-position: -3px -3px;
+}
+#product ul li.no2 a:link,#product ul li.no2 a:visited{
+    background-position: -239px -4px;
+}
+#product ul li.no3 a:link,#product ul li.no3 a:visited{
+    background-position: -475px -4px;
+}
+#product ul li.no4 a:link,#product ul li.no4 a:visited{
+    background-position: -711px -4px;
+}
+#product ul li.no1 a:hover{
+    background-position: -3px -90px;
+}
+#product ul li.no2 a:hover{
+    background-position: -239px -91px;
+}
+#product ul li.no3 a:hover{
+    background-position: -475px -91px;
+}
+#product ul li.no4 a:hover{
+    background-position: -711px -91px;
+}
+
+
+.cl3{
+    height: 7px;
+    clear: both;
+}
+#function{
+    width: 970px;
+    height: 210px;
+    padding-left: 2px;
+    margin: 0 auto;
+}
+#function .inner{
+    height: 210px;
+    background: url(../images/icons.png) repeat-x 0 -196px;
+}
+#function .inner .c1{
+    position: relative;
+    width: 312px;
+    height: 207px;
+    padding-left: 11px;
+    padding-top: 3px;
+    background:url(../images/icons.png) no-repeat right -411px;
+}
+#function .inner .c1 h3{
+    width: 209px;
+    height: 55px;
+    text-indent: -999px;
+    background:url(../images/icons2.png) no-repeat -2px 0;
+}
+#function .inner .c2{
+    width: 398px;
+    height: 203px;
+    padding-top: 7px;
+    padding-left: 10px;
+    background:url(../images/icons.png) no-repeat right -411px;
+    position: relative;
+}
+#function .inner .jiahao{
+    display: block;
+    width: 35px;
+    height: 24px;
+    background:url(../images/icons2.png) no-repeat -2px -64px;
+    position: absolute;
+    right: 12px;
+    top: 19px;
+}
+#function .inner .jiahao a{
+    display: block;
+    height: 24px;
+}
+#function .inner .neirong{
+    padding-top: 16px;
+}
+#function .inner .neirong .wen{
+    width: 184px;
+    padding-left: 10px;
+    font: 12px/150% "宋体";
+}
+#function .inner .neirong .wen a:link,#function .inner .neirong .wen a:visited{
+    color: #398C00;
+}
+
+#function .inner .c2 h3{
+    width: 172px;
+    height: 48px;
+    text-indent: -999px;
+    background:url(../images/icons2.png) no-repeat 0 -106px;
+}
+#function .inner .c2 ul{
+    padding-top: 24px;
+    list-style: none;
+}
+#function .inner .c2 ul li{
+    float: left;
+    width: 121px;
+    height: 95px;
+    padding-right: 12px;
+    text-align: center;
+}
+#function .inner .c2 ul li.no3{
+    padding-right: 0;
+}
+#function .inner .c2 ul li a:link,#function .inner .c2 ul li a:visited{
+    font: 12px/24px "宋体";
+    color: #606060;
+    text-decoration: none;
+}
+#function .inner .c2 ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#function .inner .c3 h3{
+    width: 139px;
+    height: 39px;
+    text-indent: -9999999px;
+    background:url(../images/icons2.png) no-repeat -2px -163px;
+    margin-bottom: 20px;
+}
+#function .inner .c3{
+    padding-top: 11px;
+    padding-left: 6px;
+    font: 12px/150% "宋体";
+    color: #5F5F5F
+}
+
+.cl4{
+    height: 11px;
+    clear: both;
+}
+
+#smallnav{
+    width: 982px;
+    margin: 0 auto;
+    height: 36px;
+    background: url(../images/icons.png) repeat-x 0 -657px;
+}
+#smallnav ul{
+    list-style: none;
+    padding-top: 10px;
+    width: 552px;
+    margin: 0 auto;
+}
+#smallnav ul li{
+    float: left;
+}
+#smallnav ul li span{
+    /*设置span的右边框为白色*/
+    border-right: 1px solid white;
+    float: left;
+    padding: 0 10px;
+}
+#smallnav ul li.last span{
+    border-right:none;
+}
+#smallnav ul li span a{
+    font: 12px/14px "宋体";
+}
+
+#smallnav ul li span a:link,#smallnav ul li span a:visited{
+    /*取消下划线*/
+    text-decoration: none;
+    color: white;
+}
+#smallnav ul li span a:hover{
+    color: gold;
+}
+
+#footer{
+    width: 100%;
+    height: 94px;
+    background: url(../images/icons.png) repeat-x 0 -725px;
+}
+#footer .inner{
+    width: 982px;
+    margin: 0 auto;
+    font: 12px/200% "宋体";
+    padding-top: 20px;
+}
+#footer .inner .c2{
+    width: 108px;
+    height: 49px;
+    background:  url(../images/icons.png) no-repeat -1px -880px;
+    position: relative;
+    top: -3px;
+}
