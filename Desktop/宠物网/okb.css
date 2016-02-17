@@ -1,0 +1,354 @@
+body {
+    margin:0 auto;
+    font: .9em Arial, Helvetica, sans-serif;
+    line-height:1.55em;
+    color:#f2f2f2;
+    background:url(images/back-site.jpg) #000 center top no-repeat;
+    text-align:center;
+}
+p, h3 {
+    margin:0;
+    padding:0;
+}
+#contenedor {
+    color:#f2f2f2;
+    margin:0 auto;
+    width:946px;
+    position:relative;
+    background:url(images/back-content.jpg) #000 center top no-repeat;
+    overflow:hidden;
+}
+#contenido {
+    width:680px;
+    float:left;
+    text-align:left;
+}
+a {
+    color:#a2ab73;
+    text-decoration:none;
+    background-image:url(images/enlaces.png);
+    background-repeat:repeat-x;
+    background-position:bottom;
+    outline:none
+}
+a:hover {
+    color:#D6E09F
+}
+span a {
+    font-size:.75em;
+    padding:0;
+    margin:90px 18px 0 0;
+    float:right;
+    text-align:right;
+    display:block;
+    color:#D6E09F !important;
+}
+span a:hover {
+    color:#D6E09F
+}
+h2 {
+    position:absolute;
+    float:left;
+    margin:0;
+    padding:15px 45px;
+}
+h2 a {
+    background:url(images/logo-okb-es.png) no-repeat;
+    width:113px;
+    height:72px;
+    display:block;
+    text-indent:-2000px;
+}
+ol {
+    clear:both;
+    position:absolute;
+    top:128px;
+    padding:0 0 0 49px;
+    margin:0;
+    display:block;
+    z-index: 100;
+}
+ol li {
+    float:left;
+    padding:0;
+    list-style:none;
+    background-image:url(images/separador-nav.png);
+    background-position:0 4px;
+    background-repeat:no-repeat;
+}
+ol #nosotros {
+    background-image:none !important;
+}
+ol a {
+    display:block;
+    background-repeat:no-repeat; /*width:95px;*/
+    height:73px;
+    text-indent:-2000px;
+    overflow:hidden;
+    background-position:0 0;
+}
+ol #nosotros a {
+    width:94px;
+    margin:0 18px 0 0
+}
+ol #servicios a {
+    width:120px;
+    margin:0 18px
+}
+ol #trabajos a {
+    width:169px;
+    margin:0 18px
+}
+ol #contacto a {
+    width:100px;
+    margin:0 0 0 18px
+}
+#nosotros a {
+    background-image: url(images/nosotros.png);
+}
+#servicios a {
+    background-image: url(images/servicios.png);
+}
+#trabajos a {
+    background-image: url(images/trabajos.png);
+}
+#contacto a {
+    background-image: url(images/contacto.png);
+}
+
+.cont-home{
+    padding:115px 0 30px 49px;
+    margin:0 0 0 0;
+    clear:both;
+}
+.cont-home p, .cont-home h3 {
+    margin:0 0 13px 0;
+}
+.izq {
+    float:left;
+    width:370px
+}
+.cont-home .izq h3 {
+    background:url(images/texto-home.png) no-repeat;
+    width:307px;
+    height:97px;
+    text-indent:-5000px;
+}
+.der{
+    float:left;
+    width:155px;
+    padding:17px;
+    margin:0 0 0 47px;
+    font-size:.75em;
+    background-image:url(images/fondo-destacado.png);
+}
+.der p {
+    padding:0 15px 0 3px;
+    line-height:1.7em;
+    font-size:1.06em;
+}
+.der ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    font-size:1.2em;
+    line-height:1.5em;
+}
+.der ul li {
+    padding:4px 0 4px 17px;
+    background-image:url(images/+.gif);
+    background-repeat:no-repeat;
+    background-position:2px 11px;
+}
+.der ul li a {
+    background: url(images/enlaces.png) repeat-x bottom;
+    color:#a2ab73;
+    padding:0;
+}
+.der ul li a:hover {
+    color:#d6e09f
+}
+#muestra {
+    display:block;
+    clear:both;
+    margin:0 0 15px 0;
+    overflow:hidden;
+    position:relative;
+    width:100%;
+}
+#muestra h4 {
+    background:url(images/muestra-de-trabajos.png) no-repeat 0 14px;
+    text-indent:-5000px;
+    display:block;
+    border-top:1px solid #141414; /*width:364px;*/
+    height:29px;
+    padding:15px 0 0 0;
+    margin:20px 26px 5px 47px;
+}
+.trabajo {
+    width:628px;
+    height:371px;
+    background:url(images/fondo-proyecto.jpg) no-repeat;
+    margin:0 0 0 40px;
+    padding:21px 0 0 18px;
+}
+.slide {
+    width:408px;
+    height:330px;
+    float:left;
+    background-color:#000;
+}
+.info {
+    float:left;
+}
+.info p.cliente span {
+    clear:both;
+    display:block;
+    font-size:.65em;
+    margin:0 0 0 0;
+    color:#429d8e
+}
+.info p.cliente {
+    border-bottom:1px solid #000;
+    margin:0 0 8px 0;
+    padding:0 0 6px 20px;
+    font-size:1em;
+    width:160px
+}
+.info p span {
+    clear:both;
+    display:block;
+    font-size:.84em;
+    margin:0 0 2px 0;
+    color:#429d8e
+}
+.info p {
+    border-bottom:1px solid #000;
+    margin:0 0 8px 0;
+    padding:0 0 8px 20px;
+    font-size:.83em;
+    line-height:1.3em;
+    width:160px;
+    color:#F2F2F2
+}
+.info p.ver {
+    border:none;
+    margin:10px 0 8px 0;
+    padding:0 0 8px 20px;
+    font-size:.83em;
+    width:160px;
+}
+.info p.ver a {
+    color:#a2ab73
+}
+/*右边 */
+#lateral {
+    width:266px;
+    float:left;
+    text-align:left;
+}
+.vcard {
+    margin:0 0 0 20px;
+    background-image:url(images/vcard-06.png);
+    background-position:left bottom;
+    background-repeat:no-repeat;
+    width:217px;
+    height:430px;
+}
+.vcard #url {
+    width:217px;
+    height:165px;
+    background-image:url(images/vcard-01.png);
+    background-repeat:no-repeat;
+    text-indent:-5000px;
+}
+.vcard #direccion {
+    width:217px;
+    height:91px;
+    background-image:url(images/vcard-02.png);
+    background-repeat:no-repeat;
+    text-indent:-5000px;
+}
+.vcard #direccion .adr #provincia {
+    text-indent:-5000px;
+}
+.vcard #tel {
+    width:217px;
+    height:47px;
+    background-image:url(images/vcard-03.png);
+    background-repeat:no-repeat;
+    text-indent:-5000px;
+}
+.vcard #fax {
+    width:217px;
+    height:39px;
+    background-image:url(images/vcard-04.png);
+    background-repeat:no-repeat;
+    text-indent:-5000px;
+}
+#emailc a {
+    text-decoration:none;
+    display:block;
+    width:218px;
+    height:38px;
+    background-image:url(images/vcard-05.png);
+    background-repeat:no-repeat;
+    text-indent:-5000px;
+}
+#otto h4 {
+    margin:-10px 0 20px 30px;
+    width:218px;
+    height:143px;
+    background:url(images/otto-es-genial.png) no-repeat;
+    text-indent:-5000px;
+}
+#caso {
+    width:218px;
+    padding:15px 0 0 0;
+    margin:-15px 0 10px 30px;
+    border-top:1px solid #141414;
+}
+#caso h4 {
+    padding:0;
+    margin:0;
+    width:218px;
+    height:78px;
+    background:url(images/caso-practico.png) no-repeat;
+    text-indent:-5000px;
+}
+#caso p {
+    margin:0 15px;
+    padding:0 0 20px 0;
+    font-size:.9em
+}
+#trabaja {
+    width:218px;
+    padding:15px 0 0 0;
+    margin:0 0 10px 30px;
+    border-top:1px solid #141414;
+}
+#trabaja h4 {
+    padding:0;
+    margin:0;
+    width:218px;
+    height:68px;
+    background:url(images/trabaja-con-nosotros.png) no-repeat;
+    text-indent:-5000px;
+}
+#trabaja p {
+    margin:0;
+    padding:0 15px 20px 15px;
+    font-size:.9em
+}
+/*footer*/
+#pie {
+    width:800px;
+    text-align:left;
+    margin:10px auto;
+    padding:20px 0 30px 0;
+    border-top:1px solid #141414;
+    font-size:12px;
+}
+#pie a {
+    margin:0 3px 0 0;
+}
